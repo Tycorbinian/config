@@ -1,0 +1,7 @@
+alias pdf='mupdf-gl'
+alias xpdf='mupdf-x11'
+alias mail='neomutt'
+alias play='mpv --geometry=1226x690+70+29 --title=f-media'
+alias play4='mpv --geometry=949x711+213+14 --title=f-media'
+alias yt='mpv --ytdl-format="bestvideo[ext=mp4][height<=?720]+bestaudio/best" --geometry=1226x690+70+29 --title=f-media'
+alias lua='lua5.3'

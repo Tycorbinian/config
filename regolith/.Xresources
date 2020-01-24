@@ -1,0 +1,168 @@
+xterm*termName: xterm-256color
+
+!font type and size
+!xterm*faceName: M+1mn:style=regular 
+xterm*faceName: mplusnerdfont:style=regular
+xterm*faceSize: 11
+
+!every shell is login
+xterm*loginshell: true
+
+!extra scrollback
+xterm*savelines:32768
+
+!right hand scrollbar
+!xterm*rightScrollBar: true
+xterm*ScrollBar: false
+
+!Theme Twelve
+!*foreground: rgb:ff/ff/ff
+!*background: rgb:00/00/00
+!*color0:     rgb:00/00/00
+!*color1:     rgb:bf/72/76
+!*color2:     rgb:86/af/80
+!*color3:     rgb:96/8a/38
+!*color4:     rgb:36/73/b5
+!*color5:     rgb:9a/70/b2
+!*color6:     rgb:7a/be/cc
+!*color7:     rgb:db/db/db
+!*color8:     rgb:66/92/af
+!*color9:     rgb:e5/50/5f
+!*color10:    rgb:87/bc/87
+!*color11:    rgb:e0/d9/5c
+!*color12:    rgb:1b/85/d6
+!*color13:    rgb:ad/73/ba
+!*color14:    rgb:33/8e/aa
+!*color15:    rgb:f4/f4/f4
+
+! XRDB2Xreources.py
+!
+*.foreground:  rgb:de/da/cf
+*.background:  rgb:17/17/17
+*.cursorColor: rgb:bb/bb/bb
+! Black
+*.color0:      rgb:00/00/00
+*.color8:      rgb:31/31/31
+! Red
+*.color1:      rgb:ff/61/5a
+*.color9:      rgb:f5/8c/80
+! Green
+*.color2:      rgb:b1/e9/69
+*.color10:     rgb:dd/f8/8f
+! Yellow
+*.color3:      rgb:eb/d9/9c
+*.color11:     rgb:ee/e5/b2
+! Blue
+*.color4:      rgb:5d/a9/f6
+*.color12:     rgb:a5/c7/ff
+! Magenta
+*.color5:      rgb:e8/6a/ff
+*.color13:     rgb:dd/aa/ff
+! Cyan
+*.color6:      rgb:82/ff/f7
+*.color14:     rgb:b7/ff/f9
+! White
+*.color7:      rgb:de/da/cf
+*.color15:     rgb:ff/ff/ff
+
+!stop output from jumping down to bottom of terminal scroll
+xterm*scrollTtyOutput: false
+
+!fix rofi terminal
+rofi.terminal: uxterm
+Xft.dpi:	96
+Xft.antialias:	1
+Xft.hinting:	1
+Xft.hintstyle:	hintslight
+Xft.rgba:	rgb
+Xcursor.size:	24
+Xcursor.theme:	Paper
+!*customization:	-color
+St.color0:	#2E3440
+St.color1:	#BF616A
+St.color10:	#434C5E
+St.color11:	#7B8394
+St.color12:	#D8DEE9
+St.color13:	#B48EAD
+St.color14:	#E5E9F0
+St.color15:	#ECEFF4
+St.color2:	#A3BE8C
+St.color3:	#EBCB8B
+St.color4:	#81A1C1
+St.color5:	#5E81AC
+St.color6:	#88C0D0
+St.color7:	#E5E9F0
+St.color8:	#2E3440
+St.color9:	#D08770
+St.font:	Source Code Pro:pixelsize=16:antialias=true:autohint=true
+gnome.gtk.theme:	Nordic
+gnome.icon.theme:	Paper
+gnome.wm.theme:	Nordic
+i3-wm.bar.background.color:	#2E3440
+i3-wm.bar.font:	pango:Source Code Pro Medium 13, FontAwesome 13
+i3-wm.bar.separator.color:	#81A1C1
+i3-wm.bar.statusline.color:	#E5E9F0
+i3-wm.bar.workspace.active.background.color:	#3B4252
+i3-wm.bar.workspace.active.border.color:	#3B4252
+i3-wm.bar.workspace.active.text.color:	#7B8394
+i3-wm.bar.workspace.focused.background.color:	#3B4252
+i3-wm.bar.workspace.focused.border.color:	#3B4252
+i3-wm.bar.workspace.focused.text.color:	#ECEFF4
+i3-wm.bar.workspace.inactive.background.color:	#2E3440
+i3-wm.bar.workspace.inactive.border.color:	#2E3440
+i3-wm.bar.workspace.inactive.text.color:	#7B8394
+i3-wm.bar.workspace.urgent.background.color:	#BF616A
+i3-wm.bar.workspace.urgent.border.color:	#BF616A
+i3-wm.bar.workspace.urgent.text.color:	#ECEFF4
+i3-wm.client.focused.color.background:	#434C5E
+i3-wm.client.focused.color.border:	#2E3440
+i3-wm.client.focused.color.child_border:	
+i3-wm.client.focused.color.indicator:	#81A1C1
+i3-wm.client.focused.color.text:	#ECEFF4
+i3-wm.client.focused_inactive.color.background:	#3B4252
+i3-wm.client.focused_inactive.color.border:	#2E3440
+i3-wm.client.focused_inactive.color.child_border:	
+i3-wm.client.focused_inactive.color.indicator:	#3B4252
+i3-wm.client.focused_inactive.color.text:	#D8DEE9
+i3-wm.client.unfocused.color.background:	#3B4252
+i3-wm.client.unfocused.color.border:	#2E3440
+i3-wm.client.unfocused.color.child_border:	
+i3-wm.client.unfocused.color.indicator:	#3B4252
+i3-wm.client.unfocused.color.text:	#D8DEE9
+i3-wm.client.urgent.color.background:	#BF616A
+i3-wm.client.urgent.color.border:	#2E3440
+i3-wm.client.urgent.color.child_border:	
+i3-wm.client.urgent.color.indicator:	#BF616A
+i3-wm.client.urgent.color.text:	#ECEFF4
+i3-wm.workspace.01.name:	1:<span font_desc="Source Code Pro Medium 13"> 1 </span><span foreground="#81A1C1"></span>
+i3-wm.workspace.02.name:	2:<span font_desc="Source Code Pro Medium 13"> 2 </span><span foreground="#88C0D0"></span>
+i3-wm.workspace.03.name:	3:<span font_desc="Source Code Pro Medium 13"> 3 </span><span foreground="#A3BE8C"></span>
+i3-wm.workspace.04.name:	4:<span font_desc="Source Code Pro Medium 13"> 4 </span><span foreground="#EBCB8B"></span>
+i3-wm.workspace.05.name:	5:<span font_desc="Source Code Pro Medium 13"> 5 </span><span foreground="#D08770"></span>
+i3-wm.workspace.06.name:	6:<span font_desc="Source Code Pro Medium 13"> 6 </span><span foreground="#BF616A"></span>
+i3-wm.workspace.07.name:	7:<span font_desc="Source Code Pro Medium 13"> 7 </span><span foreground="#5E81AC"></span>
+i3-wm.workspace.08.name:	8:<span font_desc="Source Code Pro Medium 13"> 8 </span><span foreground="#B48EAD"></span>
+i3-wm.workspace.09.name:	9:<span font_desc="Source Code Pro Medium 13"> 9 </span><span foreground="#E5E9F0"></span>
+i3-wm.workspace.10.name:	10:<span font_desc="Source Code Pro Medium 13"> 10 </span><span foreground="#81A1C1"></span>
+i3-wm.workspace.11.name:	11:<span font_desc="Source Code Pro Medium 13"> 11 </span><span foreground="#88C0D0"></span>
+i3-wm.workspace.12.name:	12:<span font_desc="Source Code Pro Medium 13"> 12 </span><span foreground="#A3BE8C"></span>
+i3-wm.workspace.13.name:	13:<span font_desc="Source Code Pro Medium 13"> 13 </span><span foreground="#EBCB8B"></span>
+i3-wm.workspace.14.name:	14:<span font_desc="Source Code Pro Medium 13"> 14 </span><span foreground="#D08770"></span>
+i3-wm.workspace.15.name:	15:<span font_desc="Source Code Pro Medium 13"> 15 </span><span foreground="#BF616A"></span>
+i3-wm.workspace.16.name:	16:<span font_desc="Source Code Pro Medium 13"> 16 </span><span foreground="#5E81AC"></span>
+i3-wm.workspace.17.name:	17:<span font_desc="Source Code Pro Medium 13"> 17 </span><span foreground="#B48EAD"></span>
+i3-wm.workspace.18.name:	18:<span font_desc="Source Code Pro Medium 13"> 18 </span><span foreground="#E5E9F0"></span>
+i3-wm.workspace.19.name:	19:<span font_desc="Source Code Pro Medium 13"> 19 </span><span foreground="#81A1C1"></span>
+i3xrocks.critical.color:	#BF616A
+i3xrocks.date.format:	+ %m/%d %I:%M %p
+i3xrocks.error.color:	#D08770
+i3xrocks.label.color:	#7B8394
+i3xrocks.nominal:	#D8DEE9
+i3xrocks.value.color:	#D8DEE9
+i3xrocks.value.font:	Source Code Pro Medium 13
+i3xrocks.warning:	#EBCB8B
+rofi.drun-icon-theme:	Arc
+rofi.font:	Source Code Pro Medium 16
+rofi.fullscreen:	true
+rofi.show-icons:	true
+rofi.theme:	/etc/regolith/rofi/regolith-theme.rasi
