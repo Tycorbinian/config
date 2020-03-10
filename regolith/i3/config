@@ -192,7 +192,7 @@ bindsym $mod+$alt+Ctrl+9 move container to workspace $ws19; workspace $ws19
 bindsym $mod+Shift+a reload
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+* restart
+bindsym $mod+Shift+m restart
 
 # Logout of session
 bindsym $mod+Shift+e exec /usr/bin/gnome-session-quit --logout
@@ -326,7 +326,6 @@ bar {
 }
 
 # Run programs when i3 starts
-
 #load proper xresources
 exec_always --no-startup-id xrdb -load ~/.Xresources
 
@@ -347,3 +346,7 @@ exec --no-startup-id /usr/bin/xeventbind resolution /usr/bin/wallpaper-refresh
 #make youtube work well
 for_window [title="f-media"] floating enable
 for_window [title="f-media"] move scratchpad
+#move certain windows to certain workspaces
+assign [class="Shutter"] $ws8
+assign [class="Skype"] $ws9
+assign [class="Ripcord"] $ws10
