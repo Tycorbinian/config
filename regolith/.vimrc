@@ -14,7 +14,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'bfrg/vim-cpp-modern' 
 "Plug 'vim-syntastic/syntastic'
 Plug 'ycm-core/YouCompleteMe'
-Plug '/rdnetto/YCM-Generator', {'branch': 'stable'}
+Plug 'rdnetto/YCM-Generator', {'branch': 'stable'}
 Plug 'vim-scripts/a.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
