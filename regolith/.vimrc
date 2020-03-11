@@ -83,8 +83,8 @@ set noshowmode
 "	\}
 "let g:ale_list_vertical = 1
 "let g:ale_open_list = 1
-"map <C-[> :lprev <CR>
-"map <C-]> :lnext <CR>
+map <C-[> :lprev <CR>
+map <C-]> :lnext <CR>
 """"""""""""""""""""""""""""""""""""""""""""""""
 "NERDTREE---------------------------------------
 map <C-n> :NERDTreeToggle<CR>
