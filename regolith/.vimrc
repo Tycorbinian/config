@@ -12,7 +12,7 @@ Plug 'itchyny/lightline.vim'
 "Plug 'maximbaz/lightline-ale'
 "Plug 'dense-analysis/ale'
 Plug 'bfrg/vim-cpp-modern' 
-"Plug 'vim-syntastic/syntastic'
+Plug 'vim-syntastic/syntastic'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'rdnetto/YCM-Generator', {'branch': 'stable'}
 Plug 'vim-scripts/a.vim'
@@ -36,11 +36,12 @@ let g:ycm_warning_symbol = ">>"
 let g:ycm_autoclose_preview_window_after_completion = 1
 
 "SYNTASTIC-------------------------------------
-"let g:syntastic_always_populate_loc_list = 0
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_check_on_wq = 1
-
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+let g:syntastic_enable_perl_checker = 1
+let g:syntastic_perl_checkers=['perl']
 """"""""""""""""""""""""""""""""""""""""""""""""
 "LIGHTLINE-------------------------------------
 let g:lightline = {'colorscheme': 'wombat',}
